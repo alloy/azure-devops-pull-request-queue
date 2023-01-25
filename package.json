@@ -1,20 +1,20 @@
 {
-  "name": "chrome-extension-typescript-starter",
+  "name": "azure-devops-pull-request-queue",
   "version": "1.0.0",
-  "description": "chrome-extension-typescript-starter",
+  "description": "Edge/Chrome extension to filter approved pull-requests from the Azure DevOps pull-requests view",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "webpack --config webpack/webpack.prod.js",
     "clean": "rimraf dist",
-    "test": "npx jest",
+    "test": "jest",
     "style": "prettier --write \"src/**/*.{ts,tsx}\""
   },
-  "author": "",
+  "author": "Eloy Durán <eloy.de.enige@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
+    "url": "https://github.com/alloy/azure-devops-pull-request-queue.git"
   },
   "dependencies": {
     "react": "^17.0.1",
