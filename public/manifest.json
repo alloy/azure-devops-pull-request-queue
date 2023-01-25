@@ -16,7 +16,7 @@
 
   "content_scripts": [
       {
-          "matches": ["<all_urls>"],
+          "matches": ["https://*.visualstudio.com/_pulls"],
           "js": ["js/vendor.js", "js/content_script.js"]
       }
   ],

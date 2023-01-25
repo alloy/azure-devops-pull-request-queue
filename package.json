@@ -17,11 +17,13 @@
     "url": "https://github.com/alloy/azure-devops-pull-request-queue.git"
   },
   "dependencies": {
+    "invariant": "^2.2.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@types/chrome": "0.0.158",
+    "@types/invariant": "^2.2.35",
     "@types/jest": "^27.0.2",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
